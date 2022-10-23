@@ -11,9 +11,9 @@ const CONTACT = 'CONTACT'
 
 // SOCIAL MEDIA LINKS
 const facebookLink = ''
-const linkedinLink = ''
-const githubLink = ''
-const instagramLink = ''
+const linkedinLink = 'https://www.linkedin.com/in/agrawal-sumit/'
+const githubLink = 'https://github.com/tech-sumit'
+const instagramLink = 'https://www.instagram.com/mr.sumitagrawal/'
 const twitterLink = ''
 
 
@@ -24,7 +24,7 @@ const projectsData =[
         14,
         'Service Infrastructure',
         '',
-        '',
+        'https://www.cloudwalker.tv/',
         `Built a highly scalable backend and android system app
         capable of diagnosing and fixing issues in devices having CloudTV OS.
         Optimized customer experience by enabling remote troubleshooting devices
@@ -46,7 +46,7 @@ const projectsData =[
         13,
         'Cloudwalker AppStore',
         '',
-        '',
+        'https://cloudtvos.com/#app-store',
         `Developed both backend and App store for featuring
         OTT apps and other compatible Android TV applications`,
         [
@@ -63,7 +63,7 @@ const projectsData =[
         12,
         'Enterprise CMS',
         '',
-        '',
+        'https://cloudtvos.com/#cde',
         `Built low latency, highly scalable CMS for content creation &
         delivery for CloudTV OS`,
         [
@@ -80,7 +80,7 @@ const projectsData =[
         11,
         'LMS',
         '',
-        '',
+        'https://www.cloudwalker.tv/',
         `It is a License Manager & authentication application combination. Its role &
         policy mechanism is similar to IAM policies of AWS Cloud. The auth app is used
         to log in to the system on a QRCode scan. This system is provided to partner
@@ -99,7 +99,7 @@ const projectsData =[
         10,
         'Data Analytics platform',
         '',
-        '',
+        'https://www.cloudwalker.tv/',
         `Its the machine learning as a service platform that
         ingests the user viewership data and generates the analytical insights for
         organization & recommendations for users`,
@@ -114,8 +114,8 @@ const projectsData =[
         9,
         'OTA Updates',
         '',
-        '',
-        `It’s an Over-The-Air update backend for Android devices
+        'https://cloudtvos.com/',
+        `It's an Over-The-Air update backend for Android devices
         delivering updates like brand updates, security patches & system app updates &
         more. The backend is capable of building a tree of conditions to be checked
         before delivering the OTA update to the device`,
@@ -130,10 +130,10 @@ const projectsData =[
         8,
         'Home Defender devices',
         '',
-        '',
+        'https://www.cloudwalker.tv/',
         `These are devices built using medical precision
         sensors integrated with AWS IoT & a Companion mobile app. These devices are
-        useful for the autonomous contactless recording of a visitor’s body temperature
+        useful for the autonomous contactless recording of a visitor's body temperature
         and profiling, also raising alerts whenever necessary`,
         [
            'ESP8266',
@@ -153,7 +153,7 @@ const projectsData =[
         7,
         'Cloudy',
         '',
-        '',
+        'https://cloudtvos.com/',
         `It's an embedded AI assistant for all CloudTVs. Users can interact &
         control the smart tv with the help of this assistant using a voice remote. This
         assistant also works on low ram Smart TVs. This is specialized for Smart TVs so it provides much more features & works better than Alexa & Google assistant by
@@ -175,11 +175,11 @@ const projectsData =[
         6,
         'Neobank for Validus group',
         '',
-        '',
+        'https://validus.sg/2022/01/validus-adds-key-hires-to-its-senior-leadership-team/',
         `The lending platform was the entry point for customers where they can be SMEs
         or Investors. Investors invest & track their funds & SMEs can apply for loans.
         Neobank comes into the picture at the time of fund disbursal.
-            Instead of putting funds directly in a SME’s bank account, funds are kept in a Neobank virtual
+            Instead of putting funds directly in a SME's bank account, funds are kept in a Neobank virtual
         account so the investor can ensure the funds are being used for the right thing.
         The SME can add its employees to a Neobank account then their wallets will be
         created & from the SME Account, the funds can be disbursed in those wallets.
@@ -202,7 +202,7 @@ const projectsData =[
         5,
         'GST Hero (Homegrown suite of business tools)',
         '',
-        '',
+        'https://gsthero.com/',
         `Worked with the CEO to understand product vision. Adopted automation to
         reduce operational overhead & enabled the use of Salesforce to manage leads &
         customer relations resulting in a revenue increase of 160% just by doing proper
@@ -214,7 +214,7 @@ const projectsData =[
         4,
         'ERP for Bukalapak Ecommerce platform',
         '',
-        '',
+        'https://www.bukalapak.com/',
         `Ecommerce seller back office aggregator & management system designed to
         help sellers manage multiple marketplaces at one place. This system allows
         sellers to integrate multiple stores from the same or different marketplaces. We import and periodically sync data which includes products, orders, promotional
@@ -247,7 +247,7 @@ const projectsData =[
         3,
         'Cryptocurrency trading & portfolio application',
         '',
-        '',
+        'https://www.alpha5.io/',
         `The system collects order books from different exchanges via WebSocket or
         RPC interfaces, retrieves the user's crypto balances & past trade history, then
         aggregates whole data & stores it in Timescale DB. The mobile app flutter app
@@ -279,7 +279,7 @@ const projectsData =[
         `This is an application for locating
         nearby vehicle service stations in case of a highway vehicle failure or In case of a
         medical emergency, This app contacts the nearest ambulance operators and
-        also displays the location of the requester on the operator’s application. This
+        also displays the location of the requester on the operator's application. This
         project ranked in KPIT Sparkle 2019 Top 20 national projects.`,
         [
             'Android App',
@@ -295,7 +295,7 @@ const projectsData =[
         1,
         'CarRace AR',
         '',
-        '',
+        'https://drive.google.com/file/d/182Td0uKxcxTnwOLFwzMYTfwYpssv0-gl/view?usp=sharing',
         `Augmented reality car racing game for Accenture Innovation
         Challenge. Ranked in top 20 projects nationally. Play a car racing game on
         augmented terrain on a simple sheet of paper.`,
@@ -312,9 +312,9 @@ const projectsData =[
     new ProjectData(
         0,
         'Maha-RTO Marathi Test',
+        'https://github.com/tech-sumit/MahaRTOMarathiTest',
         '',
-        '',
-        `ndroid app created for Marathi literate users to
+        `Android app created for Marathi literate users to
         practice for the LLR exam conducted by the Maharashtra State RTO department.`,
         [
             'Android App',
@@ -333,12 +333,12 @@ const careersData =[
         '03/2022',
         'Present',
         [
-            'Spenmo is a SaaS product-based organization funded by Y Combinator & Tiger global. The product vision is to be a SaaS CFO of a company.',
-            'My responsibility is to Lead the team of Top talent across the globe for GoLang & Microservice architecture.',
-            'I am helping Spenmo migrate from Monolith PHP architecture which is not scalable to the hyper scalable fault-tolerant organization-wide microservices architecture.',
-
-
+            `Spenmo is a SaaS product-based organization funded by Y Combinator & Tiger global. 
+            The product vision is to be a Software CFO of a company. 
+            My responsibility is to Lead the team of Top talent across the globe for GoLang & Microservice architecture. 
+            I am helping Spenmo migrate from Monolith PHP architecture which is not scalable to the hyper scalable fault-tolerant organization-wide microservices architecture.`,
         ],
+        [],
         'https://spenmo.com/',
         []
     ),
@@ -350,11 +350,12 @@ const careersData =[
         '3/2022',
         [
             `Here at Argonaut.dev we are trying to bridge the gap between startups & secure
-            & scalable infrastructure. We are a silicon valley startup funded by Y Combinator.`,
-            `Our product offloads the allocation & management of infrastructure as well as deploys codes
+            & scalable infrastructure. We are a silicon valley startup funded by Y Combinator.
+            Our product offloads the allocation & management of infrastructure as well as deploys codes
             for teams. I am responsible for designing & engineering the system more from the
             Architectural & backend perspective.`,
         ],
+        [],
         'https://www.argonaut.dev/',
         []
 
@@ -369,15 +370,16 @@ const careersData =[
             `I am responsible for learning & adopting new technologies in the organization,
             architect & build the systems from scratch, Guide & work with the team to build scalable
             & bulletproof systems. Built a team from scratch to 20+ talented developers & Ops
-            persons.`,
-            `Helped the organization to build the next level of authority by promoting
+            persons.
+            Helped the organization to build the next level of authority by promoting
             capable developers to mid-managers to grow the team further. Being in a product
             development organization contributed to multiple projects with roles like Solutions
             Architect & Tech Lead & built well-architected systems & took responsibility for the
-            development cycles.`,
-            `I worked with Product owners to understand their needs and
+            development cycles.
+            I worked with Product owners to understand their needs and
             assisted them to build products.`
         ],
+        [],
         '',
         [
            projectsData[8],
@@ -394,8 +396,8 @@ const careersData =[
         '05/2021',
         [
             `I architected & built a Cryptocurrency trading & portfolio application for the
-            invite-only members club.`,
-            `The system collects order books from different exchanges via WebSocket or
+            invite-only members club.
+            The system collects order books from different exchanges via WebSocket or
             RPC interfaces, retrieves the user's crypto balances & past trade history, then
             aggregates whole data & stores it in Timescale DB. The mobile app flutter app
             then consumes this data via proto streaming over MQTT. The proto APIs allow
@@ -404,6 +406,7 @@ const careersData =[
             node written in Go) Also built transaction scraper for DApp decentralized
             application users.`
         ],
+        [],
         '',
         [
           projectsData[11]   
@@ -419,13 +422,14 @@ const careersData =[
         [
             `I was responsible for designing, building & deploying dashboards, server
             backends & Android TV & phone apps & to take complete responsibility for the projects
-            allocated & Innovated by me.`,
-            `Built a highly scalable backend and android system app
+            allocated & Innovated by me.
+            Built a highly scalable backend and android system app
             capable of diagnosing and fixing issues in devices having CloudTV OS.
             Optimized customer experience by enabling remote troubleshooting devices
-            which reduced on-site support requests saving costs for the organization.`,
-            `Android system app, GoLang Microservices, AWS IoT, AWS SNS,NodeJS + ReactJS dashboard, MongoDB, Deployed on AWS ECS`
+            which reduced on-site support requests saving costs for the organization.
+            Android system app, GoLang Microservices, AWS IoT, AWS SNS,NodeJS + ReactJS dashboard, MongoDB, Deployed on AWS ECS`
         ],
+        [],
         '',
         [
          projectsData[0],
@@ -448,23 +452,24 @@ const careersData =[
         '5/2019',
         [
             `I was responsible for Designing & building products & managing the firm as a
-            founder.`,
-
-            `On-Road emergency and repair services This is an application for locating
+            founder.
+            
+            On-Road emergency and repair services This is an application for locating
             nearby vehicle service stations in case of a highway vehicle failure or In case of a
             medical emergency, This app contacts the nearest ambulance operators and
-            also displays the location of the requester on the operator’s application.`,
-           
-            `CarRace AR. This is a Augmented reality car racing game for Accenture Innovation
+            also displays the location of the requester on the operator's application.
+            
+            CarRace AR. This is a Augmented reality car racing game for Accenture Innovation
             Challenge. Ranked in top 20 projects nationally. Play a car racing game on
             augmented terrain on a simple sheet of paper.
             Tech stack: Unity3D, Vuforia, Android App, NodeJS backend, MongoDB,
-            Deployed on AWS ECS`,
-
-            `Maha-RTO Marathi Test Android app created for Marathi literate users to
+            Deployed on AWS ECS
+            
+            Maha-RTO Marathi Test Android app created for Marathi literate users to
             practice for the LLR exam conducted by the Maharashtra State RTO department.
             Tech Stack: Android App, Google Translate API`
         ],
+        [],
         '',
         [
             projectsData[12],
@@ -479,10 +484,9 @@ const careersData =[
 
 // CONTACT DATA
 const contactData ={
-    'address':'941 Saqrqorish Road, alandalos, grnata, wa 47122-4194',
+    'address':'Andheri West, Mumbai, Maharashtra - 400058',
     'phones': ['+91 7709922149'],
     'emails': ['mr.sumitagrawal.17@gmail.com']
-
 }
 
 // SKILLS DATA

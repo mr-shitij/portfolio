@@ -5,16 +5,18 @@ class CareerData{
     #start
     #end
     #description
+    #pointers
     #url
     #projects
 
-    constructor(shortCompanyName,companyName,jobProfile,start,end,description,url,projects){
+    constructor(shortCompanyName,companyName,jobProfile,start,end,description,pointers,url,projects){
         this.#shortCompanyName = shortCompanyName
         this.#companyName = companyName
         this.#jobProfile = jobProfile
         this.#start = start
         this.#end = end
         this.#description = description
+        this.#pointers = pointers
         this.#url = url
         this.#projects = projects
     }
@@ -40,6 +42,9 @@ class CareerData{
     }
     get description(){
         return this.#description
+    }
+    get pointers(){
+        return this.#pointers
     }
     get url(){
         return this.#url

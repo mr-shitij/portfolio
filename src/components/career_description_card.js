@@ -83,16 +83,22 @@ function CareerDescriptionCard({ careerData }) {
           </small>
           {careerData.description.map((desc, i) => (
             <p>
+              {desc}
+            </p>
+          ))}
+          {careerData.pointers.map((point, i) => (
+            <p>
               {' '}
               <span
                 style={{
                   display: 'inline',
                   marginRight: '10px',
+                  marginLeft: '50px',
                 }}
               >
                 <BiRightArrow color="var(--raw-seinna)" />
               </span>{' '}
-              {desc}
+              {point}
             </p>
           ))}
         </>

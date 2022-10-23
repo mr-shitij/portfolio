@@ -26,7 +26,7 @@ function home({tab,setTab}) {
         </figure>
 
         <div class="hero-content">
-          <h2 class="h2 hero-title">We Design & Build Creative Products</h2>
+          <h2 class="h2 hero-title">An entusiastic guy doing lots of cool stuff in life</h2>
 
           <div onClick={()=>{
               setTab(Constants.CONTACT)
@@ -36,7 +36,7 @@ function home({tab,setTab}) {
         </div>
       </div>
       <Container className='mb-5'>
-          <h4 className=' h2 hero-title center'>Where to Find Me</h4>
+          <h4 className=' h2 hero-title center'>Social media</h4>
           <div className='center'>
           <Row style={{
              width:'300px'

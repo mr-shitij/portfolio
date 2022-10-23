@@ -13,10 +13,12 @@ function ProjectCard({projectData}) {
           }} class="h3 ">{projectData.title}</h2>
         </Col>
         <Col className=' center'>
-        <a href={projectData.githubLink}><FaGithub color='black' size={20}/></a>
-         <a href={projectData.deployLink}><FaLink color='black' size={20} style={{
-            marginLeft:'10px'
-         }}/> </a>
+          {projectData.githubLink===undefined || projectData.githubLink===null || projectData.githubLink===''?null:
+              <a href={projectData.githubLink}><FaGithub color='black' size={20}/></a>
+          }
+          {projectData.deployLink===undefined || projectData.deployLink===null || projectData.deployLink===''?null:
+              <a href={projectData.deployLink}><FaLink color='black' size={20} style={{marginLeft:'10px'}}/></a>
+          }
         </Col>
 
        </Row>
